@@ -10,7 +10,7 @@ public class InventorySystem
 {
     [SerializeField] private List<InventorySlot> inventorySlots;//How many slots our inventory has.
 
-    private List<InventorySlot> InventorySlots => inventorySlots;
+    public List<InventorySlot> InventorySlots => inventorySlots;
     public int InventorySize => InventorySlots.Count;
 
     public UnityAction<InventorySlot> OnInventorySlotChanged;
