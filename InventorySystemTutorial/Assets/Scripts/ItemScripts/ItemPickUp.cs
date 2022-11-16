@@ -18,14 +18,14 @@ public class ItemPickUp : MonoBehaviour
         
     }
 
-    // When player hits the item , it will destroy and it will get add the player's inventory
+    // When player hits the item , it will destroy and it goes to the player's inventory
     private void OnTriggerEnter(Collider other)
     {
-        var inventory  = other.transform.GetComponent<InventoryHolder>();
+        var inventory  = other.transform.GetComponent<PlayerInventoryHolder>();
 
         if (!inventory) return;
 
-        if(inventory.InventorySystem.AddToInventory(ItemData, 1))
+        if(inventory.AddToInventory(ItemData, 1))
         {
             Destroy(this.gameObject );
         }

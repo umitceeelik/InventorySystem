@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class StaticInventoryDisplay : InventoryDisplay
 {
-    [SerializeField] private InventoryHolder inventoryHolder;
+    [SerializeField] private PlayerInventoryHolder playerInventoryHolder;
     [SerializeField] private InventorySlots_UI[] slots;
 
     protected override void Start()
     {
         base.Start();
 
-        if(inventoryHolder != null)
+        if(playerInventoryHolder != null)
         {
-            inventorySystem = inventoryHolder.InventorySystem;
+            inventorySystem = playerInventoryHolder.PrimaryInventorySystem;
             inventorySystem.OnInventorySlotChanged += UpdateSlot;
         }
         else
