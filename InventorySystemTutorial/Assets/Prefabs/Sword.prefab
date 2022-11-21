@@ -60,7 +60,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2fdd39ef1f8a9144b33b940bb6261d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _id: e6e0232d-9f2c-46c7-b391-248c0ef69b98
+  _id: 480f15c6-1409-43df-ad3a-d37073718972
 --- !u!114 &-4019860583987188436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75,6 +75,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickUpRadius: 1
   ItemData: {fileID: 11400000, guid: 21e7fed454f8ad64bb802a27669acc51, type: 2}
+  _rotationSpeed: 20
   itemSaveData:
     ItemData: {fileID: 0}
     Position: {x: 0, y: 0, z: 0}

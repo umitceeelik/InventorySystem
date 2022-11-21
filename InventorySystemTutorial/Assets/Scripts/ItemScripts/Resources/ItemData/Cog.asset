@@ -16,5 +16,6 @@ MonoBehaviour:
   DisplayName: Cog
   Description: This is a cog.
   Icon: {fileID: 21300000, guid: 2b43af6d057427747a932190b420aa01, type: 3}
-  MaxStackSize: 3
-  GoldValue: 20
+  MaxStackSize: 99
+  GoldValue: 1
+  ItemPrefab: {fileID: 5485786855118244832, guid: c760b88d7410bc042a0b9ff4a2ad642d, type: 3}

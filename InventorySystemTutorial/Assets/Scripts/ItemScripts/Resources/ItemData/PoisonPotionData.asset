@@ -16,5 +16,6 @@ MonoBehaviour:
   DisplayName: ManaPotion
   Description: This is a poison potion.
   Icon: {fileID: 21300000, guid: 2c20a350fa6df234da04dcecb2d01a89, type: 3}
-  MaxStackSize: 1
-  GoldValue: 10
+  MaxStackSize: 2
+  GoldValue: 15
+  ItemPrefab: {fileID: 1759229965578892156, guid: 16da371094ffa1840b19e3e9189df22a, type: 3}
